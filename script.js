@@ -56,7 +56,7 @@ if (item.getAttribute("class") == "completed") { //if class is completed
 else {
      item.setAttribute("class", "completed"); //add class
      completedCount++;
-     showCompleted.innerText = completedCount +"done"; //update completed count
+     showCompleted.innerText = completedCount +" done"; //update completed count
 
 } 
 
