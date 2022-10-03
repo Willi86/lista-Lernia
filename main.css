@@ -1,3 +1,7 @@
+
+
+
+
 h1 {
 color: #27729ea4;
 font-family: Arial, Helvetica, sans-serif;
@@ -31,9 +35,9 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 14px;
 font-weight: bold;
 line-height: 24px;
-
+   /*border-radius: 1rem; ---------- this will make the button lose it is styling (change color when clicked))	*/ 
 text-transform: uppercase;
-
+ cursor: pointer;
 
 }
 
@@ -89,7 +93,14 @@ text-transform: uppercase;
     text-decoration: line-through;
     color: darkgrey;
     
-    
+    cursor: pointer;
     
   }
+
+#ToDo {
+    color: rgb(97, 99, 206);
+    background-color: antiquewhite;
+    
+border-radius: 1rem;
+}
 
