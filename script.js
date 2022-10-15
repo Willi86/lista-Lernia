@@ -19,11 +19,11 @@ addBtn.addEventListener("click", function () {
   if (!text) {
     alert("Please enter a task!"); //if the user doesn't enter a task, an alert will pop up
     return;
-  } else if (text.length > 20) {
+  } else if (text.length > 50) {
     alert("Please enter a task less than 10 characters!");
     return;
   } //if the user enters a task longer than 10 characters, an alert will pop up
-  else if (text.length < 10) {
+  else if (text.length < 50) {
     alert("Task added!");
   }
   //forEach(item => { completedP ++;}); //completedP is the number of completed tasks
