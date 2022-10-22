@@ -13,7 +13,8 @@ h1 {
 }
 
 .completedP {
-  animation-name: input1; /* same animation as the input field, i just copied the name of the animation here again as i did in H1*/
+  animation-name: input1; /* same animation as the input field, 
+  i just copied the name of the animation here again as i did in H1*/
   animation-duration: 2s;
   background-color: #27729ea4;
   border: 1px solid #27729ea4;
