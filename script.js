@@ -66,7 +66,7 @@ addBtn.addEventListener("click", function () {
 
   input.value = ""; //clears input field  finally found it after 2 hours of searching
   const itemBtn = document.createElement("button"); //create button
-  itemBtn.innerText = "Delete"; //add text to button
+  itemBtn.innerText ="🗑️"; //add text to button
   item.appendChild(itemBtn); //add button to li
   itemBtn.className = "BtnClass"; //add class to button
   itemBtn.addEventListener("click", function () {
