@@ -16,7 +16,7 @@ addBtn.addEventListener("click", function () {
   toDoArray.push(text);
   // toDo is the paragraph tag
 
-  if (!text || text.length>2) {
+  if (!text) {
     var divClass =document.querySelector("#div1"); /*connecting the divClass with the id div1*/
     divClass.style.display = "block"; /*Finally */ /*displaying the divClass*/
      setTimeout(
